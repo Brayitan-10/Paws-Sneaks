@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &1180092437783381695
+--- !u!1001 &484443286051569274
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -8,47 +8,47 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -8653719598885068355, guid: 8c8a7dd1b882a2542ae54dc3d555dcac, type: 3}
+    - target: {fileID: -8653719598885068355, guid: 1aa438f1da711d64398f248c4020f820, type: 3}
       propertyPath: m_Name
-      value: Perro Robot Paws And Sneaks
+      value: Perro Robot Paws And Sneaks Actualizado
       objectReference: {fileID: 0}
-    - target: {fileID: -7552582706839291426, guid: 8c8a7dd1b882a2542ae54dc3d555dcac, type: 3}
+    - target: {fileID: -7552582706839291426, guid: 1aa438f1da711d64398f248c4020f820, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -7552582706839291426, guid: 8c8a7dd1b882a2542ae54dc3d555dcac, type: 3}
+    - target: {fileID: -7552582706839291426, guid: 1aa438f1da711d64398f248c4020f820, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -7552582706839291426, guid: 8c8a7dd1b882a2542ae54dc3d555dcac, type: 3}
+    - target: {fileID: -7552582706839291426, guid: 1aa438f1da711d64398f248c4020f820, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -7552582706839291426, guid: 8c8a7dd1b882a2542ae54dc3d555dcac, type: 3}
+    - target: {fileID: -7552582706839291426, guid: 1aa438f1da711d64398f248c4020f820, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -7552582706839291426, guid: 8c8a7dd1b882a2542ae54dc3d555dcac, type: 3}
+    - target: {fileID: -7552582706839291426, guid: 1aa438f1da711d64398f248c4020f820, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -7552582706839291426, guid: 8c8a7dd1b882a2542ae54dc3d555dcac, type: 3}
+    - target: {fileID: -7552582706839291426, guid: 1aa438f1da711d64398f248c4020f820, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -7552582706839291426, guid: 8c8a7dd1b882a2542ae54dc3d555dcac, type: 3}
+    - target: {fileID: -7552582706839291426, guid: 1aa438f1da711d64398f248c4020f820, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -7552582706839291426, guid: 8c8a7dd1b882a2542ae54dc3d555dcac, type: 3}
+    - target: {fileID: -7552582706839291426, guid: 1aa438f1da711d64398f248c4020f820, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -7552582706839291426, guid: 8c8a7dd1b882a2542ae54dc3d555dcac, type: 3}
+    - target: {fileID: -7552582706839291426, guid: 1aa438f1da711d64398f248c4020f820, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -7552582706839291426, guid: 8c8a7dd1b882a2542ae54dc3d555dcac, type: 3}
+    - target: {fileID: -7552582706839291426, guid: 1aa438f1da711d64398f248c4020f820, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
@@ -56,4 +56,4 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 4843985084834002234, guid: 8c8a7dd1b882a2542ae54dc3d555dcac, type: 3}
+  m_SourcePrefab: {fileID: 4843985084834002234, guid: 1aa438f1da711d64398f248c4020f820, type: 3}
