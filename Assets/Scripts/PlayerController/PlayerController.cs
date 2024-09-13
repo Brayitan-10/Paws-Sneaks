@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D rigidBodyPlayer;
     private bool onGround = true;
     float x = 180f, a = -360f;
+    public Animator animator;
 
     //public ParticleController1 particleController;
     private void Awake()
@@ -18,6 +19,9 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         axisHorizontal = Input.GetAxis("Horizontal");
+
+       // animator.SetFloat("Movement"),speed;
+
         if (Input.GetKeyDown(KeyCode.W) && onGround)
         {
             rigidBodyPlayer.AddForce(Vector2.up * jumpForce);
