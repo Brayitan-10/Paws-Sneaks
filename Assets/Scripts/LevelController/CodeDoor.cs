@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AbrirPuertaConCodigo : MonoBehaviour
+public class CodeDoor : MonoBehaviour
 {
     public GameObject puerta;
     public Transform puntoA, puntoB;
     public float velocidad = 2f;
     public InputField inputCodigo;
-    public int codigoCorrecto = 1234; // Código correcto para abrir la puerta
+    public int codigoCorrecto = 783145; // Código correcto para abrir la puerta
 
     private bool puertaAbierta = false;
 
