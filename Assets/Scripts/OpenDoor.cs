@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AbrirPuerta : MonoBehaviour
+public class Opendoor : MonoBehaviour
 {
     public GameObject puerta;
     public Transform puntoA, puntoB;
