@@ -3,28 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LevelChange : MonoBehaviour
+public class ChangeLevel : MonoBehaviour
 {
-	public static LevelChange instance;
-
-	private void Awake()
-	{
-		if (instance == null)
-		{
-			instance = this;
-			DontDestroyOnLoad(gameObject);
-		}
-		else
-		{
-			Destroy(gameObject);
-		}
-	}
-	public void NextLevel()
-	{
-		SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
-	}
-	public void LoadScene(string sceneName)
-	{
-		SceneManager.LoadSceneAsync(sceneName);
-	}
+    public void ChangeLevel1()
+    {
+        int actualLevel = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(actualLevel + 1);
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            int actualLevel = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(actualLevel + 1);
+        }
+    }
 }
