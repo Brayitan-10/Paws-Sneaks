@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,6 +16,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         rigidBodyPlayer = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>(); 
     }
     void Update()
     {
@@ -64,6 +66,7 @@ public class PlayerController : MonoBehaviour
         if (rigidBodyPlayer.bodyType != RigidbodyType2D.Static)
         {
             rigidBodyPlayer.velocity = new Vector2(axisHorizontal * speed, rigidBodyPlayer.velocity.y);
+            animator.SetFloat("xVelocity", Math.Abs(rigidBodyPlayer.velocity.x));
 
         }
     }
