@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public Transform play;
-    public float speed, axisHorizontal, jumpForce;
+    public float speed, axisHorizontal, runSpeed, jumpForce;
     public Rigidbody2D rigidBodyPlayer;
     private bool onGround = true;
     float x = 180f, a = -360f;
@@ -62,10 +62,22 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+        float currentSpeed = speed;
+
+        // Verifica si la tecla de correr está presionada
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            currentSpeed *= runSpeed;
+            animator.SetBool("Correr", true); // Usa la velocidad de correr
+        }
+        else
+        {
+            animator.SetBool("Correr", false);
+        }
 
         if (rigidBodyPlayer.bodyType != RigidbodyType2D.Static)
         {
-            rigidBodyPlayer.velocity = new Vector2(axisHorizontal * speed, rigidBodyPlayer.velocity.y);
+            rigidBodyPlayer.velocity = new Vector2(axisHorizontal * currentSpeed, rigidBodyPlayer.velocity.y);
             animator.SetFloat("xVelocity", Math.Abs(rigidBodyPlayer.velocity.x));
 
         }

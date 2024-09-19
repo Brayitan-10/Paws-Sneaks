@@ -76890,6 +76890,7 @@ MonoBehaviour:
   play: {fileID: 2122928187}
   speed: 10
   axisHorizontal: 0
+  runSpeed: 2
   jumpForce: 450
   rigidBodyPlayer: {fileID: 2122928185}
   animator: {fileID: 2122928189}
