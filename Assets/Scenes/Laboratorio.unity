@@ -132,9 +132,9 @@ GameObject:
   m_Component:
   - component: {fileID: 290996}
   - component: {fileID: 291000}
-  - component: {fileID: 290999}
   - component: {fileID: 290998}
   - component: {fileID: 290997}
+  - component: {fileID: 290999}
   m_Layer: 0
   m_Name: Suelo cristal (4)
   m_TagString: Untagged
@@ -241,7 +241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082d32fd1d7256f40b67c8e30170a141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 0.1
+  waitTime: 1.3
   returnTimePlataform: 0
   rotationVelocity: 0
 --- !u!212 &291000
@@ -2209,7 +2209,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c13123c6a0125c944b2761baa041397a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10234,9 +10234,9 @@ GameObject:
   m_Component:
   - component: {fileID: 251414717}
   - component: {fileID: 251414721}
-  - component: {fileID: 251414720}
   - component: {fileID: 251414719}
   - component: {fileID: 251414718}
+  - component: {fileID: 251414720}
   m_Layer: 0
   m_Name: Suelo cristal (7)
   m_TagString: Untagged
@@ -10343,7 +10343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082d32fd1d7256f40b67c8e30170a141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 0.1
+  waitTime: 1.3
   returnTimePlataform: 0
   rotationVelocity: 0
 --- !u!212 &251414721
@@ -16167,7 +16167,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c13123c6a0125c944b2761baa041397a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -16293,7 +16293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082d32fd1d7256f40b67c8e30170a141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 0.1
+  waitTime: 1.3
   returnTimePlataform: 0
   rotationVelocity: 0
 --- !u!61 &385952752
@@ -16835,7 +16835,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c13123c6a0125c944b2761baa041397a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -48928,7 +48928,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c13123c6a0125c944b2761baa041397a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -52021,9 +52021,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1272254628}
   - component: {fileID: 1272254632}
-  - component: {fileID: 1272254631}
   - component: {fileID: 1272254630}
   - component: {fileID: 1272254629}
+  - component: {fileID: 1272254631}
   m_Layer: 0
   m_Name: Suelo cristal (10)
   m_TagString: Untagged
@@ -52130,7 +52130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082d32fd1d7256f40b67c8e30170a141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 0.1
+  waitTime: 1.3
   returnTimePlataform: 0
   rotationVelocity: 0
 --- !u!212 &1272254632
@@ -53237,7 +53237,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c13123c6a0125c944b2761baa041397a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -53858,9 +53858,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1316553169}
   - component: {fileID: 1316553173}
-  - component: {fileID: 1316553172}
   - component: {fileID: 1316553171}
   - component: {fileID: 1316553170}
+  - component: {fileID: 1316553172}
   m_Layer: 0
   m_Name: Suelo cristal (9)
   m_TagString: Untagged
@@ -53967,7 +53967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082d32fd1d7256f40b67c8e30170a141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 0.1
+  waitTime: 1.3
   returnTimePlataform: 0
   rotationVelocity: 0
 --- !u!212 &1316553173
@@ -61666,7 +61666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082d32fd1d7256f40b67c8e30170a141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 0.1
+  waitTime: 1.3
   returnTimePlataform: 0.1
   rotationVelocity: 0
 --- !u!50 &1505188864
@@ -63466,7 +63466,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c13123c6a0125c944b2761baa041397a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -68993,9 +68993,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1702291039}
   - component: {fileID: 1702291043}
-  - component: {fileID: 1702291042}
   - component: {fileID: 1702291041}
   - component: {fileID: 1702291040}
+  - component: {fileID: 1702291042}
   m_Layer: 0
   m_Name: Suelo cristal (1)
   m_TagString: Untagged
@@ -69102,7 +69102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082d32fd1d7256f40b67c8e30170a141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 0.1
+  waitTime: 1.3
   returnTimePlataform: 0
   rotationVelocity: 0
 --- !u!212 &1702291043
@@ -72551,9 +72551,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1799285281}
   - component: {fileID: 1799285285}
-  - component: {fileID: 1799285284}
   - component: {fileID: 1799285283}
   - component: {fileID: 1799285282}
+  - component: {fileID: 1799285284}
   m_Layer: 0
   m_Name: Suelo cristal (5)
   m_TagString: Untagged
@@ -72660,7 +72660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082d32fd1d7256f40b67c8e30170a141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 0.1
+  waitTime: 1.3
   returnTimePlataform: 0
   rotationVelocity: 0
 --- !u!212 &1799285285
@@ -72944,7 +72944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082d32fd1d7256f40b67c8e30170a141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 0.1
+  waitTime: 1.3
   returnTimePlataform: 0.1
   rotationVelocity: 0
 --- !u!50 &1803473600
@@ -73822,9 +73822,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1817276840}
   - component: {fileID: 1817276844}
-  - component: {fileID: 1817276843}
   - component: {fileID: 1817276842}
   - component: {fileID: 1817276841}
+  - component: {fileID: 1817276843}
   m_Layer: 0
   m_Name: Suelo cristal (3)
   m_TagString: Untagged
@@ -73931,7 +73931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082d32fd1d7256f40b67c8e30170a141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 0.1
+  waitTime: 1.3
   returnTimePlataform: 0
   rotationVelocity: 0
 --- !u!212 &1817276844
@@ -74597,9 +74597,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1835058723}
   - component: {fileID: 1835058727}
-  - component: {fileID: 1835058726}
   - component: {fileID: 1835058725}
   - component: {fileID: 1835058724}
+  - component: {fileID: 1835058726}
   m_Layer: 0
   m_Name: Suelo cristal (8)
   m_TagString: Untagged
@@ -74706,7 +74706,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082d32fd1d7256f40b67c8e30170a141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 0.1
+  waitTime: 1.3
   returnTimePlataform: 0
   rotationVelocity: 0
 --- !u!212 &1835058727
@@ -75271,7 +75271,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -75555,9 +75555,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1842287049}
   - component: {fileID: 1842287053}
-  - component: {fileID: 1842287052}
   - component: {fileID: 1842287051}
   - component: {fileID: 1842287050}
+  - component: {fileID: 1842287052}
   m_Layer: 0
   m_Name: Suelo cristal (6)
   m_TagString: Untagged
@@ -75664,7 +75664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082d32fd1d7256f40b67c8e30170a141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 0.1
+  waitTime: 1.3
   returnTimePlataform: 0
   rotationVelocity: 0
 --- !u!212 &1842287053
@@ -77546,7 +77546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082d32fd1d7256f40b67c8e30170a141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 0.1
+  waitTime: 1.3
   returnTimePlataform: 0
   rotationVelocity: 0
 --- !u!50 &1886380392
@@ -78049,8 +78049,8 @@ Transform:
   m_GameObject: {fileID: 1892107977}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 176.53534, y: 2.252944, z: 0}
-  m_LocalScale: {x: 0.1783, y: 0.1783, z: 0.1783}
+  m_LocalPosition: {x: 176.6366, y: 2.2843, z: 0}
+  m_LocalScale: {x: 0.2158678, y: 0.2158678, z: 0.2158678}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 965066388}
@@ -81335,7 +81335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082d32fd1d7256f40b67c8e30170a141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 0.1
+  waitTime: 1.3
   returnTimePlataform: 0.1
   rotationVelocity: 0
 --- !u!50 &1955882329
@@ -82049,7 +82049,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c13123c6a0125c944b2761baa041397a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -84058,7 +84058,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c13123c6a0125c944b2761baa041397a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -84167,9 +84167,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2030398645}
   - component: {fileID: 2030398649}
-  - component: {fileID: 2030398648}
   - component: {fileID: 2030398647}
   - component: {fileID: 2030398646}
+  - component: {fileID: 2030398648}
   m_Layer: 0
   m_Name: Suelo cristal (2)
   m_TagString: Untagged
@@ -84276,7 +84276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082d32fd1d7256f40b67c8e30170a141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 0.1
+  waitTime: 1.3
   returnTimePlataform: 0
   rotationVelocity: 0
 --- !u!212 &2030398649
