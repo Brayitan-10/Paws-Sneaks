@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1533546050208495458
+--- !u!1 &483577567535445478
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,37 +8,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6541031620785943852}
-  - component: {fileID: 4221061237170274947}
+  - component: {fileID: 193097428430425192}
+  - component: {fileID: 4195755216130711687}
   m_Layer: 0
-  m_Name: exclamacion
+  m_Name: Alerta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!4 &6541031620785943852
+--- !u!4 &193097428430425192
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533546050208495458}
+  m_GameObject: {fileID: 483577567535445478}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.12, y: 1.01, z: 0}
-  m_LocalScale: {x: 0.15998802, y: 0.17728746, z: 0.34592003}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.559, y: 5.81, z: 0}
+  m_LocalScale: {x: 1.0619202, y: 0.77479947, z: 3.518617}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2980636890159954914}
+  m_Father: {fileID: 6641178670464754670}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &4221061237170274947
+--- !u!212 &4195755216130711687
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533546050208495458}
+  m_GameObject: {fileID: 483577567535445478}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 79ab578b78f3b024e8cf5f820de96c9f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d7d0431a9a038c64abc74abff77f579b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &5151633930485135692
+--- !u!1 &6460653208196519096
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,40 +92,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2980636890159954914}
-  - component: {fileID: 1665681170874571653}
-  - component: {fileID: 6979585878503745586}
-  - component: {fileID: 9037260832887813571}
+  - component: {fileID: 6641178670464754670}
+  - component: {fileID: 7569058753233998872}
+  - component: {fileID: 6022411862217753249}
+  - component: {fileID: 2067893066298859134}
   m_Layer: 0
-  m_Name: NPC
+  m_Name: Sub
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2980636890159954914
+--- !u!4 &6641178670464754670
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5151633930485135692}
+  m_GameObject: {fileID: 6460653208196519096}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.75, y: -1.3500061, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.8575, y: -0.8918, z: 0}
+  m_LocalScale: {x: 0.15418014, y: 0.202967, z: 0.17976}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6541031620785943852}
+  - {fileID: 193097428430425192}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1665681170874571653
+--- !u!212 &7569058753233998872
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5151633930485135692}
+  m_GameObject: {fileID: 6460653208196519096}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -160,7 +160,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: feb6a5b43e7271340bb06a2cdd820c7f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -171,13 +171,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &6979585878503745586
+--- !u!114 &6022411862217753249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6460653208196519096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2d72fad60ac604bb84eabd63d64f59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exclamacion: {fileID: 483577567535445478}
+  DialogoPanel: {fileID: 0}
+  DialogoText: {fileID: 0}
+  DialogoLinea:
+  - 'Oriana: Cuidado con los obstaculos que hay por el laboratorio.'
+  - 'Oriana: Presiona SHIFT para correr.'
+--- !u!61 &2067893066298859134
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5151633930485135692}
+  m_GameObject: {fileID: 6460653208196519096}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -200,37 +218,19 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.033355713, y: -0.4446873}
+  m_Offset: {x: 0.2781887, y: -3.549522}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 10.36, y: 5.33}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.489685, y: 3.0900302}
+  m_Size: {x: 17.68552, y: 12.429042}
   m_EdgeRadius: 0
---- !u!114 &9037260832887813571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5151633930485135692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a2d72fad60ac604bb84eabd63d64f59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  exclamacion: {fileID: 1533546050208495458}
-  DialogoPanel: {fileID: 0}
-  DialogoText: {fileID: 0}
-  DialogoLinea:
-  - 'Oriana: Para moverte utiliza A,D y W para saltar.'
-  - 'Oriana: Tencuidado con las tranpas y obtaculos del laboratorio.'
