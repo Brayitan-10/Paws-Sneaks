@@ -321,7 +321,7 @@ Transform:
   m_GameObject: {fileID: 1035691}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 51.950012, y: -11.07, z: 0}
+  m_LocalPosition: {x: 47.5, y: -11.07, z: 0}
   m_LocalScale: {x: 0.2932, y: 0.2932, z: 0.2932}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1330,7 +1330,7 @@ Transform:
   m_GameObject: {fileID: 24659006}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.62, y: 1.2029998, z: -10}
+  m_LocalPosition: {x: -4.5, y: 1.2029998, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7077,7 +7077,7 @@ Transform:
   m_GameObject: {fileID: 163656406}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.779999, y: -13.15, z: 0}
+  m_LocalPosition: {x: 8.25, y: -13.15, z: 0}
   m_LocalScale: {x: 0.2932, y: 0.2932, z: 0.2932}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10205,7 +10205,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3610545226223555015, guid: 5ec8c9fc19c1d254a8c62a06891afbc6, type: 3}
       propertyPath: DialogoLinea.Array.data[0]
-      value: 'Oriana: Ten cuidado!!! El piso es poco estable.'
+      value: "Oriana: \xA1\xA1\xA1Ten cuidado!!! El piso es poco estable."
       objectReference: {fileID: 0}
     - target: {fileID: 3610545226223555015, guid: 5ec8c9fc19c1d254a8c62a06891afbc6, type: 3}
       propertyPath: DialogoLinea.Array.data[1]
@@ -13180,7 +13180,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: fd228a75384bc09448b77e5ffebc1f79, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.62
+      value: -4.5
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: fd228a75384bc09448b77e5ffebc1f79, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18451,8 +18451,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3610545226223555015, guid: 5ec8c9fc19c1d254a8c62a06891afbc6, type: 3}
       propertyPath: DialogoLinea.Array.data[0]
-      value: "Oriana: \xA1Bien hecho Atom! Has logrado superar los obstaculos del
-        laboratorio."
+      value: "Oriana: \xA1Bien hecho Atom! Has logrado superar los obst\xE1culos
+        del laboratorio."
       objectReference: {fileID: 0}
     - target: {fileID: 3610545226223555015, guid: 5ec8c9fc19c1d254a8c62a06891afbc6, type: 3}
       propertyPath: DialogoLinea.Array.data[1]
@@ -26340,7 +26340,7 @@ Transform:
   m_GameObject: {fileID: 612038677}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.78, y: -11.07, z: 0}
+  m_LocalPosition: {x: 8.23, y: -11.07, z: 0}
   m_LocalScale: {x: 0.2932, y: 0.2932, z: 0.2932}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26361,7 +26361,7 @@ MonoBehaviour:
   platform: {fileID: 612038677}
   startpoint: {fileID: 2117125197}
   endpoint: {fileID: 163656407}
-  speed: 4
+  speed: 2
 --- !u!114 &612038680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66599,7 +66599,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3610545226223555015, guid: 5ec8c9fc19c1d254a8c62a06891afbc6, type: 3}
       propertyPath: DialogoLinea.Array.data[0]
-      value: 'Oriana: Ten cuidado por los laser estos puden matarte.'
+      value: "Oriana: Ten cuidado por los l\xE1ser estos puden matarte."
       objectReference: {fileID: 0}
     - target: {fileID: 8078729885897715107, guid: 5ec8c9fc19c1d254a8c62a06891afbc6, type: 3}
       propertyPath: m_Name
@@ -67635,7 +67635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3610545226223555015, guid: 5ec8c9fc19c1d254a8c62a06891afbc6, type: 3}
       propertyPath: DialogoLinea.Array.data[0]
-      value: 'Oriana: Ten cuidado con las plataformas, podiras caer y morir.'
+      value: "Oriana: Ten cuidado con las plataformas, podr\xEDas caer y morir."
       objectReference: {fileID: 0}
     - target: {fileID: 8078729885897715107, guid: 5ec8c9fc19c1d254a8c62a06891afbc6, type: 3}
       propertyPath: m_Name
@@ -77869,7 +77869,7 @@ Transform:
   m_GameObject: {fileID: 1837797286}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 51.950012, y: -13.15, z: 0}
+  m_LocalPosition: {x: 47.5, y: -13.15, z: 0}
   m_LocalScale: {x: 0.2932, y: 0.2932, z: 0.2932}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -84207,7 +84207,7 @@ Transform:
   m_GameObject: {fileID: 1953349641}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 51.95, y: -11.07, z: 0}
+  m_LocalPosition: {x: 47.53, y: -11.07, z: 0}
   m_LocalScale: {x: 0.2932, y: 0.2932, z: 0.2932}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -84228,7 +84228,7 @@ MonoBehaviour:
   platform: {fileID: 1953349641}
   startpoint: {fileID: 1035692}
   endpoint: {fileID: 1837797287}
-  speed: 4
+  speed: 2
 --- !u!114 &1953349644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84578,7 +84578,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3610545226223555015, guid: 5ec8c9fc19c1d254a8c62a06891afbc6, type: 3}
       propertyPath: DialogoLinea.Array.data[0]
-      value: "Oriana: \xA1Atom! Ten cuidado con las estrellas ninjas pueden matarte."
+      value: "Oriana: \xA1Atom! Ten cuidado con las estrellas ninjas, pueden matarte."
       objectReference: {fileID: 0}
     - target: {fileID: 8078729885897715107, guid: 5ec8c9fc19c1d254a8c62a06891afbc6, type: 3}
       propertyPath: m_Name
@@ -85916,11 +85916,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3610545226223555015, guid: 5ec8c9fc19c1d254a8c62a06891afbc6, type: 3}
       propertyPath: DialogoLinea.Array.data[0]
-      value: 'Oriana: Ten cuidado!! las plataformas son poco estables.'
+      value: "Oriana: \xA1\xA1Ten cuidado!! Las plataformas son poco estables."
       objectReference: {fileID: 0}
     - target: {fileID: 3610545226223555015, guid: 5ec8c9fc19c1d254a8c62a06891afbc6, type: 3}
       propertyPath: DialogoLinea.Array.data[1]
-      value: "Oriana: El liquido verde es \xE1cido, si caes moriras."
+      value: "Oriana: El l\xEDquido verde es \xE1cido, si caes morir\xE1s."
       objectReference: {fileID: 0}
     - target: {fileID: 3610545226223555015, guid: 5ec8c9fc19c1d254a8c62a06891afbc6, type: 3}
       propertyPath: DialogoLinea.Array.data[2]
@@ -87256,7 +87256,7 @@ Transform:
   m_GameObject: {fileID: 2029495737}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.62, y: 1.2029998, z: -10}
+  m_LocalPosition: {x: -4.5, y: 1.2029998, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -90964,7 +90964,7 @@ Transform:
   m_GameObject: {fileID: 2117125196}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.779999, y: -11.07, z: 0}
+  m_LocalPosition: {x: 8.25, y: -11.07, z: 0}
   m_LocalScale: {x: 0.2932, y: 0.2932, z: 0.2932}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -91032,7 +91032,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3610545226223555015, guid: 5ec8c9fc19c1d254a8c62a06891afbc6, type: 3}
       propertyPath: DialogoLinea.Array.data[0]
-      value: 'Oriana: Debes desifrar el codigo para poder abrir la puerta.'
+      value: "Oriana: Debes descifrar el c\xF3digo para poder abrir la puerta."
       objectReference: {fileID: 0}
     - target: {fileID: 3610545226223555015, guid: 5ec8c9fc19c1d254a8c62a06891afbc6, type: 3}
       propertyPath: DialogoLinea.Array.data[1]
@@ -92003,6 +92003,14 @@ PrefabInstance:
       propertyPath: DialogoPanel
       value: 
       objectReference: {fileID: 1796433247}
+    - target: {fileID: 3610545226223555015, guid: 5ec8c9fc19c1d254a8c62a06891afbc6, type: 3}
+      propertyPath: DialogoLinea.Array.data[0]
+      value: 'Oriana: Utiliza A, D, para moverte W para saltar y SHIFT para correr.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3610545226223555015, guid: 5ec8c9fc19c1d254a8c62a06891afbc6, type: 3}
+      propertyPath: DialogoLinea.Array.data[1]
+      value: "Oriana: Cuidado con los obst\xE1culos que hay por el laboratorio."
+      objectReference: {fileID: 0}
     - target: {fileID: 8078729885897715107, guid: 5ec8c9fc19c1d254a8c62a06891afbc6, type: 3}
       propertyPath: m_Name
       value: Sub
