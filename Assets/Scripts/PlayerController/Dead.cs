@@ -22,5 +22,6 @@ public class Dead : MonoBehaviour
         //{
         //    other.GetComponent<GamerLife>().TakeDamage
         //}
+        
     }
 }
